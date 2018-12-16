@@ -10,7 +10,11 @@
  *********************************************/
 body {
   background: #111;
-  background-color: #111; }
+  background-color: #111;
+  background-image: url("../../assets/laravel-logo.png");
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat; }
 
 .reveal {
   font-family: "Open Sans", sans-serif;
@@ -269,3 +273,6 @@ body {
 @media print {
   .backgrounds {
     background-color: #111; } }
+
+hr {
+  color: #f0f1f3; }

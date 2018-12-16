@@ -16,7 +16,11 @@ html * {
  *********************************************/
 body {
   background: #002b36;
-  background-color: #002b36; }
+  background-color: #002b36;
+  background-image: url("../../assets/laravel-logo.png");
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -275,3 +279,6 @@ body {
 @media print {
   .backgrounds {
     background-color: #002b36; } }
+
+hr {
+  color: #f0f1f3; }

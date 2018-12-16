@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/laravel.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,153 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+          <h1 style='text-align: left; text-transform: none;'>
+            Laravel FUNdamentals
+          </h1>
+        </section>
+				<section style='text-align: left;'>
+          <h2 style='text-transform: none;'>What is Laravel?</h2>
+          <hr>
+          <p>
+            Laravel is a powerful MVC PHP framework, designed for developers who need a simple and elegant toolkit to create full-featured web applications. Laravel was created by Taylor Otwell.
+          </p>
+          <aside class="notes">
+            Check if everyone has their environment setup. Let them open gitbash, composer -v.
+          </aside>
+        </section>
+        <section style='text-align: left;'>
+          <h3>Model-View-Controller Architecture</h3>
+          <hr>
+          <img src="assets/mvc-pattern.jpg" alt="">
+        </section>
+        <section style='text-align: left;'>
+          <h3>Why Laravel?</h3>
+          <hr>
+          <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1671_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"laravel","geo":"","time":"today 5-y"},{"keyword":"Symfony","geo":"","time":"today 5-y"},{"keyword":"/m/02qgdkj","geo":"","time":"today 5-y"},{"keyword":"CakePHP","geo":"","time":"today 5-y"},{"keyword":"Zend","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&q=laravel,Symfony,%2Fm%2F02qgdkj,CakePHP,Zend","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+        </section>
+        <section style='text-align: left;'>
+          <h3>Resources</h3>  
+          <ul style='margin-top: 1em;'>
+            <li>LaraCasts</li>
+            <li>Laravel News</li>
+            <li>Larajobs</li>
+            <li>Forge</li>
+          </ul>        
+        </section>
+        <section style='text-align: center;'>
+          <h1>Setting up Laravel</h1>
+        </section>
+        <section style='text-align: center;'>
+          <h2>Composer</h2>
+        </section>
+        <section style='text-align: center;'>
+          <h2>Application Structure</h2>
+          <aside class="notes">
+            Only app, public, config, routes, resources, tests, vendor.
+          </aside>
+        </section>
+        <section style='text-align: center;'>
+          <h2>Routing</h2>
+          <aside class='notes'>
+            One of your first tasks is to determine how routing is handled. Or in other words, when I visit a particular URL in the browser, how does my framework route that URL to the necessary logic? Let's review the basics in this episode. <br />
+            Explain Ctrl+P in VS Code. Explain the default route in web. <br />
+            Make a new route, demonstrate error
+          </aside>
+        </section>
+        <section style='text-align: left;'>
+          <h3>Request Types</h3>
+          <hr>
+          <ul>
+            <li class='fragment'>GET - fetch a resource</li>
+            <li class='fragment'>POST - send data</li>
+            <li class='fragment'>PUT - edit a resource</li>
+            <li class='fragment'>DELETE - delete a resource</li>
+            <li class='fragment'>PATCH - partially edit a resource</li>
+            <li class='fragment'>OPTIONS - describe the communication</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Routing</h2>
+        </section>
+        <section>
+          <h2>Blade templating</h2>
+          <aside class="notes">
+            Explain the repeated sections in the former example. <br /> 
+          </aside>
+        </section>
+        <section style='text-align: left;'>
+          <h3>Laravel Blade</h3>
+          <ul>
+            <li class='fragment'>Blade is the simple, yet powerful templating engine provided with Laravel. </li>
+            <li class='fragment'>Does not restrict you from using plain PHP code in your views.</li>
+            <li class='fragment'>Compiled to PHP.</li>
+            <li class='fragment'>uses the .blade.php extension.</li>
+          </ul>
+        </section>
+        <section style='text-align: center;'>
+          <h3>Template Inheritance</h3>
+        </section>
+        <section style='text-align: center;'>
+          <h3>Extend a Layout</h3>
+        </section>
+        <section style='text-align: center;'>
+          <h3>Passing Data to your Views</h3>
+          <aside class='notes'>
+            Explain V-C a bit. <br />
+            Using PHP echo a name first.
+          </aside>
+        </section>
+        <section style='text-align: center;'>
+          <h3>Displaying Data</h3>
+          <aside class="notes">
+            @if <br />
+            @foreach <br />
+          </aside>
+        </section>
+        <section style='text-align: center;'>
+          <h3>Alternative ways to send data to your views.</h3>
+        </section>
+        <section style='text-align: center;'>
+          <h3>Controllers</h3>
+          <aside class="notes">
+            Create a new route using a controller. <br />
+            Demonstrate an error first. <br />
+            Show where controllers are located. <br /> 
+            PHP artisan command. <br /> 
+          </aside>
+        </section>
+        <section>
+          <h2>Database and Migrations</h2>
+        </section>
+        <section>
+          <h3>Setting up our environment!</h3>
+        </section>
+        <section>
+          <h2>Database and Migrations</h2>
+          <aside class="notes">
+            Demonstrate PHP artisan commands.
+          </aside>
+        </section>
+        <section>
+          <h2>Eloquent</h2>
+          <p></p>
+          <aside class="notes">
+            Laravel Tinker
+          </aside>
+        </section>
+        <section>
+          <h2>Basic Eloquent</h2>
+          <aside class="notes">
+            Laravel Tinker
+          </aside>
+        </section>
+        <section>
+          <h2>Namespacing</h2>
+        </section>
+        <section>
+          <h2>Tying them together.</h2>
+        </section>
 			</div>
 		</div>
 

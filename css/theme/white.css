@@ -12,7 +12,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 body {
   background: #fff;
-  background-color: #fff; }
+  background-color: #fff;
+  background-image: url("../../assets/laravel-logo.png");
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -271,3 +275,6 @@ body {
 @media print {
   .backgrounds {
     background-color: #fff; } }
+
+hr {
+  color: #f0f1f3; }

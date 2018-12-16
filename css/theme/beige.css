@@ -16,7 +16,11 @@ body {
   background: -o-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
   background: -ms-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
   background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background-color: #f7f3de; }
+  background-color: #f7f3de;
+  background-image: url("../../assets/laravel-logo.png");
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -275,3 +279,6 @@ body {
 @media print {
   .backgrounds {
     background-color: #f7f3de; } }
+
+hr {
+  color: #f0f1f3; }

@@ -15,7 +15,11 @@
  *********************************************/
 body {
   background: #222;
-  background-color: #222; }
+  background-color: #222;
+  background-image: url("../../assets/laravel-logo.png");
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat; }
 
 .reveal {
   font-family: Ubuntu, "sans-serif";
@@ -274,6 +278,9 @@ body {
 @media print {
   .backgrounds {
     background-color: #222; } }
+
+hr {
+  color: #f0f1f3; }
 
 .reveal p {
   font-weight: 300;

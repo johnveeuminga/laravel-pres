@@ -12,7 +12,11 @@
  *********************************************/
 body {
   background: #F0F1EB;
-  background-color: #F0F1EB; }
+  background-color: #F0F1EB;
+  background-image: url("../../assets/laravel-logo.png");
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat; }
 
 .reveal {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
@@ -271,3 +275,6 @@ body {
 @media print {
   .backgrounds {
     background-color: #F0F1EB; } }
+
+hr {
+  color: #f0f1f3; }

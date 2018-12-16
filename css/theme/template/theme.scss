@@ -6,7 +6,11 @@
 
 body {
 	@include bodyBackground();
-	background-color: $backgroundColor;
+  background-color: $backgroundColor;
+  background-image: url('../../assets/laravel-logo.png');
+  background-position: bottom 40px left 40px;
+  background-size: 100px;
+  background-repeat: no-repeat;
 }
 
 .reveal {
@@ -322,4 +326,9 @@ body {
     .backgrounds {
         background-color: $backgroundColor;
     }
+}
+
+
+hr {
+  color: #f0f1f3;
 }
